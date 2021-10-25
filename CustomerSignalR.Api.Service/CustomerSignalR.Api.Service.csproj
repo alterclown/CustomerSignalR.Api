@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CustomerSignalR.Api.Data\CustomerSignalR.Api.Data.csproj" />
+    <ProjectReference Include="..\CustomerSignalR.Api.Repository\CustomerSignalR.Api.Repository.csproj" />
+  </ItemGroup>
+
+</Project>
